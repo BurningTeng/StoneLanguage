@@ -1,4 +1,3 @@
-
 package  stone;
 public   abstract     class  Token{
     public  static final Token EOF = new Token(-1){};   //end of fine
