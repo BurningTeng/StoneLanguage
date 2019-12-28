@@ -1,16 +1,7 @@
-package stone.chap3;
-
-import stone.chap3.CDialog;
-
-import java.io.FileNotFoundException;
-import java.io.Reader;
-
-import stone.Lexer;
-import stone.Token;
-
 public class LexRunner {
 
     public static void main(String[] args) {
+        System.out.println("Burning");
         Lexer lex = null;
         Reader reader = null;
         try {
