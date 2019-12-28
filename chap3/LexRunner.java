@@ -1,3 +1,4 @@
+import stone.Lexer;
 public class LexRunner {
 
     public static void main(String[] args) {
