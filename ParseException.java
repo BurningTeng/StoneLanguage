@@ -3,16 +3,7 @@ package stone;
 import java.io.IOException;
 
 public class ParseException extends Exception {
-<<<<<<< HEAD
-    /**
-     *
-     */
-    private static final long serialVersionUID = 1580580457800772223L;
-
-    public ParseException(Token t) {
-=======
     public ParseException(Token t){
->>>>>>> ae368662d71bc59bdcee2048b9733896d3f03066
         this("",t);
     }
 

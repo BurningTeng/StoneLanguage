@@ -5,7 +5,6 @@ public   abstract     class  Token{
     private  int lineNumber;
 
     public   Token(int line){
-
         lineNumber = line;
     }
 

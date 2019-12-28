@@ -19,13 +19,8 @@ public class Lexer {
 
 	public Lexer(Reader reader) {
 		hasMore = true;
-<<<<<<< HEAD
 		//这里需要使用this， 否则reader为null
 		this.reader = new LineNumberReader(reader);
-=======
-		reader = new LineNumberReader(reader);
-
->>>>>>> ae368662d71bc59bdcee2048b9733896d3f03066
 	}
 
 	// 这个是仅仅是为了读出单词 所以都去之后删除
@@ -64,10 +59,6 @@ public class Lexer {
 		try {
 			line = reader.readLine();
 		} catch (IOException e) {
-<<<<<<< HEAD
-=======
-			// TODO Auto-generated catch block
->>>>>>> ae368662d71bc59bdcee2048b9733896d3f03066
 			e.printStackTrace();
 		}
 		Matcher match = pattern.matcher(line);
@@ -115,10 +106,6 @@ public class Lexer {
 				}
 
 			}
-<<<<<<< HEAD
-=======
-
->>>>>>> ae368662d71bc59bdcee2048b9733896d3f03066
 		}
 	}
 
