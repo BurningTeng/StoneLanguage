@@ -1,5 +1,3 @@
-package stone;
-
 public class StoneExeception extends  RuntimeException{
 
     private static final long serialVersionUID = 8860582360359726018L;

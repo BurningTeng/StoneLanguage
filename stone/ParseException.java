@@ -1,5 +1,3 @@
-package stone;
-
 import java.io.IOException;
 
 public class ParseException extends Exception {
